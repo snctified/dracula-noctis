@@ -3,7 +3,7 @@
     "displayName": "Dracula Noctis",
     "description": "Dracula palette with syntax highlighting based on Noctis",
     "publisher": "snctified",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "icon": "images/icon.png",
     "engines": {
         "vscode": "^1.63.0"
