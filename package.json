@@ -1,11 +1,12 @@
 {
-    "name": "catppuccin-noctis",
-    "displayName": "Catppuccin Noctis",
-    "description": "Catppuccin palette with Noctis syntax highlighting!",
-    "publisher": "alexdauenhauer",
+    "name": "dracula-noctis",
+    "displayName": "Dracula Noctis",
+    "description": "Dracula palette with syntax highlighting based on Noctis",
+    "publisher": "snctified",
     "version": "0.0.1",
+    "icon": "images/icon.png",
     "engines": {
-        "vscode": "^1.46.0"
+        "vscode": "^1.63.0"
     },
     "categories": [
         "Themes",
@@ -13,18 +14,18 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/alexdauenhauer/catppuccin-noctis.git"
+        "url": "https://github.com/snctified/dracula-noctis.git"
     },
     "galleryBanner": {
-		"color": "#1E1E2E",
-		"theme": "dark"
-	},
+        "color": "#3c4557",
+        "theme": "dark"
+    },
     "contributes": {
         "themes": [
             {
-                "label": "Catppuccin Noctis",
+                "label": "Dracula Noctis",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Catppuccin Noctis-color-theme.json"
+                "path": "./themes/dracula-noctis.json"
             }
         ]
     }
